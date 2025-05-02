@@ -70,20 +70,7 @@ public class MinhaJanela extends JFrame {
 		labelSenha.setFont(new Font("Tahoma", Font.BOLD, 25));
 		panelTop.add(labelSenha);
 		
-		textField = new JTextField();
-		panelTop.add(textField);
-		textField.setColumns(10);
 		
-		JPanel panelBottom = new JPanel();
-		panelBottom.setBackground(Color.PINK);
-		panelBottom.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
-		contentPane.add(panelBottom, BorderLayout.SOUTH);
-		
-		JButton buttonAutenticar = new JButton("Autenticar");
-		panelBottom.add(buttonAutenticar);
-		
-		JButton buttonLimpar = new JButton("Limpar");
-		panelBottom.add(buttonLimpar);
 	}
 
 }
